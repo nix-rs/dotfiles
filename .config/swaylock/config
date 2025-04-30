@@ -1,0 +1,33 @@
+show-failed-attempts
+
+image=~/Downloads/xtrs/wallpapers/platform.jpg
+
+indicator-idle-visible
+indicator-radius=85
+
+font=Noto Sans
+
+inside-color=00000000
+inside-clear-color=00000000
+inside-ver-color=00000000
+inside-wrong-color=00000000
+line-uses-inside
+
+key-hl-color=98c379
+layout-bg-color=00000000
+layout-border-color=00000000
+layout-text-color=00000000
+
+ring-color=00000000
+ring-clear-color=00000000
+ring-caps-lock-color=00000000
+ring-ver-color=00000000
+ring-wrong-color=00000000
+separator-color=00000000
+
+text-color=000000
+
+# Swaylock-effects
+clock
+effect-blur=3x3
+effect-vignette=0.7:0.7
