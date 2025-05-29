@@ -6,7 +6,8 @@
 
 window#waybar {
     background-color: rgba(43, 48, 59, 0.5);
-    border-bottom: 3px solid rgba(100, 114, 125, 0.5);
+    border-bottom: 1px solid rgba(10, 243, 1, 0.5);
+    /*border-bottom: 3px solid rgba(100, 114, 125, 0.5);*/
     color: #ffffff;
     transition-property: background-color;
     transition-duration: .5s;
@@ -109,12 +110,13 @@ button:hover {
 }
 
 #clock {
-    background-color: #64727D;
+    /*background-color: #000000;*/
+    color: #0af301;
 }
 
 #battery {
-    background-color: #ffffff;
-    color: #000000;
+    /*background-color: #000000;*/
+    color: #0af301;
 }
 
 #battery.charging, #battery.plugged {
@@ -164,12 +166,13 @@ label:focus {
 }
 
 #cpu {
-    background-color: #2ecc71;
-    color: #000000;
+    /*background-color: #000000;*/
+    color: #0af301;
 }
 
 #memory {
-    background-color: #9b59b6;
+    /*background-color: #000000;*/
+    color: #0af301;
 }
 
 #disk {
@@ -177,7 +180,8 @@ label:focus {
 }
 
 #backlight {
-    background-color: #90b1b1;
+    /*background-color: #000000;*/
+    color: #0af301;
 }
 
 #network {
@@ -189,13 +193,13 @@ label:focus {
 }
 
 #pulseaudio {
-    background-color: #f1c40f;
-    color: #000000;
+    /*background-color: #000000;*/
+    color: #0af301;
 }
 
 #pulseaudio.muted {
-    background-color: #90b1b1;
-    color: #2a5c45;
+    background-color: #f53;
+    color: #0af301;
 }
 
 #wireplumber {
@@ -222,7 +226,8 @@ label:focus {
 }
 
 #temperature {
-    background-color: #f0932b;
+    /*background-color: #000000;*/
+    color: #0af301;
 }
 
 #temperature.critical {
@@ -243,12 +248,11 @@ label:focus {
 }
 
 #idle_inhibitor {
-    background-color: #2d3436;
+    color: #0af301;
 }
 
 #idle_inhibitor.activated {
-    background-color: #ecf0f1;
-    color: #2d3436;
+    color: #0af301;
 }
 
 #mpd {
